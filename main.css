@@ -1,4 +1,4 @@
-/* General styling */
+ /* General styling */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -14,17 +14,11 @@ a {
 
 /* Header styling */
 header {
-<<<<<<< HEAD
-  background-color: whitesmoke;
+  background-color: burlywood;
   padding: 20px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-  
-
-=======
-  background-color: white;
-  padding: 20px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
->>>>>>> 16618248498b5e2120d2eb217dc18aceb028e0be
+  height: 500px;
+ 
 }
 
 .top-bar {
@@ -39,13 +33,10 @@ header {
   border: 1px solid #ccc;
   padding: 5px;
   border-radius: 5px;
-<<<<<<< HEAD
   width: 500px;
   height: 30px;
   font-size: 16px;
 
-=======
->>>>>>> 16618248498b5e2120d2eb217dc18aceb028e0be
 }
 
 .top-bar-buttons {
@@ -54,13 +45,6 @@ header {
 
 .top-bar-buttons button {
   margin-left: 10px;
-<<<<<<< HEAD
-  background-color:red;
-  color:red;
-=======
-  background-color: #4CAF50;
-  color: white;
->>>>>>> 16618248498b5e2120d2eb217dc18aceb028e0be
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -70,23 +54,21 @@ header {
 
 /* Navigation styling */
 nav {
-<<<<<<< HEAD
   background-color: transparent;
-  color: white;
+  color: black;
 }
 nav button {
-  width: 200px;
+  width: 350px;
   height: 50px;
-  background-color: skyblue;
+  background-color: gainsboro;
+  
 
   
   
 }
-=======
   background-color: #333;
   color: white;
 }
->>>>>>> 16618248498b5e2120d2eb217dc18aceb028e0be
 
 nav ul {
   list-style: none;
@@ -101,11 +83,7 @@ nav li {
 }
 
 nav a {
-<<<<<<< HEAD
   color: black;
-=======
-  color: white;
->>>>>>> 16618248498b5e2120d2eb217dc18aceb028e0be
 }
 
 nav a:hover {
@@ -122,7 +100,6 @@ nav a:hover {
   color: white;
   border: none;
   cursor: pointer;
-<<<<<<< HEAD
   width: 200px;
   height: 40px;
 }
@@ -133,10 +110,7 @@ nav a:hover {
   
 
 }
-=======
-}
 
->>>>>>> 16618248498b5e2120d2eb217dc18aceb028e0be
 .dropdown-content {
   display: none;
   position: absolute;
@@ -145,29 +119,26 @@ nav a:hover {
 }
 
 .dropdown-content li {
-  display: block;
+  display: none;
   padding: 10px;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-<<<<<<< HEAD
 h1{
   font-style:italic;
-  font-weight:700;
-  font-family: sans-serif;
+  font-family: 'lobster',cursive;
   align-self: center;
-  font-size:xx-large;
+  font-size: 80px;
   position: absolute;
-  left: 35%;
+  left: 30%;
 }
-=======
->>>>>>> 16618248498b5e2120d2eb217dc18aceb028e0be
 
 /* Main content styling */
 main {
   padding: 20px;
+  background-color: blanchedalmond;
 }
 
 .product-list {
